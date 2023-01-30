@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .eventDiv{
  max-width: 1861px;
  max-height: 601px;
@@ -19,9 +22,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
     .eventHeading{
         text-align: center;
         margin: 0 auto;
@@ -34,9 +34,6 @@
 }
 
 @media only screen and (min-width: 605px) {
-    body {
-      background-color: coral;
-    }
     .eventHeading{
         text-align: center;
         margin: 0 auto;
@@ -49,9 +46,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-    body {
-      background-color: rgb(224, 221, 214);
-    }
     .eventHeading{
         text-align: left;
         margin-left: 150px;
